@@ -7,145 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AB284252468432C00102CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB284242468432C00102CB5 /* AppDelegate.swift */; };
-		7AB284272468432C00102CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB284262468432C00102CB5 /* SceneDelegate.swift */; };
-		7AB284292468432C00102CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB284282468432C00102CB5 /* ContentView.swift */; };
-		7AB2842B2468433000102CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2842A2468433000102CB5 /* Assets.xcassets */; };
-		7AB2842E2468433000102CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2842D2468433000102CB5 /* Preview Assets.xcassets */; };
-		7AB284312468433000102CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2842F2468433000102CB5 /* LaunchScreen.storyboard */; };
-		7AB2843C2468433000102CB5 /* ___BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2843B2468433000102CB5 /* ___BrowserTests.swift */; };
-		7AB284472468433000102CB5 /* ___BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB284462468433000102CB5 /* ___BrowserUITests.swift */; };
+		7AB2846324684B5700102CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2846224684B5700102CB5 /* AppDelegate.swift */; };
+		7AB2846524684B5700102CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2846424684B5700102CB5 /* SceneDelegate.swift */; };
+		7AB2846724684B5700102CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2846624684B5700102CB5 /* ViewController.swift */; };
+		7AB2846A24684B5700102CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2846824684B5700102CB5 /* Main.storyboard */; };
+		7AB2846C24684B5900102CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2846B24684B5900102CB5 /* Assets.xcassets */; };
+		7AB2846F24684B5900102CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2846D24684B5900102CB5 /* LaunchScreen.storyboard */; };
+		7AB2849624685BEE00102CB5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB2849524685BED00102CB5 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7AB284382468433000102CB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AB284192468432C00102CB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AB284202468432C00102CB5;
-			remoteInfo = "艦これBrowser";
-		};
-		7AB284432468433000102CB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AB284192468432C00102CB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AB284202468432C00102CB5;
-			remoteInfo = "艦これBrowser";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		7AB284212468432C00102CB5 /* 艦これBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "艦これBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AB284242468432C00102CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AB284262468432C00102CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AB284282468432C00102CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7AB2842A2468433000102CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7AB2842D2468433000102CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7AB284302468433000102CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7AB284322468433000102CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AB284372468433000102CB5 /* 艦これBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "艦これBrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AB2843B2468433000102CB5 /* ___BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___BrowserTests.swift"; sourceTree = "<group>"; };
-		7AB2843D2468433000102CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AB284422468433000102CB5 /* 艦これBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "艦これBrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AB284462468433000102CB5 /* ___BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___BrowserUITests.swift"; sourceTree = "<group>"; };
-		7AB284482468433000102CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB2845F24684B5700102CB5 /* 艦これBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "艦これBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB2846224684B5700102CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AB2846424684B5700102CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AB2846624684B5700102CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AB2846924684B5700102CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AB2846B24684B5900102CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AB2846E24684B5900102CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AB2847024684B5900102CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB2849524685BED00102CB5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7AB2841E2468432C00102CB5 /* Frameworks */ = {
+		7AB2845C24684B5700102CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB284342468433000102CB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB2843F2468433000102CB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7AB2849624685BEE00102CB5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7AB284182468432C00102CB5 = {
+		7AB2845624684B5700102CB5 = {
 			isa = PBXGroup;
 			children = (
-				7AB284232468432C00102CB5 /* 艦これBrowser */,
-				7AB2843A2468433000102CB5 /* 艦これBrowserTests */,
-				7AB284452468433000102CB5 /* 艦これBrowserUITests */,
-				7AB284222468432C00102CB5 /* Products */,
+				7AB2846124684B5700102CB5 /* 艦これBrowser */,
+				7AB2846024684B5700102CB5 /* Products */,
+				7AB2849424685BED00102CB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7AB284222468432C00102CB5 /* Products */ = {
+		7AB2846024684B5700102CB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AB284212468432C00102CB5 /* 艦これBrowser.app */,
-				7AB284372468433000102CB5 /* 艦これBrowserTests.xctest */,
-				7AB284422468433000102CB5 /* 艦これBrowserUITests.xctest */,
+				7AB2845F24684B5700102CB5 /* 艦これBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AB284232468432C00102CB5 /* 艦これBrowser */ = {
+		7AB2846124684B5700102CB5 /* 艦これBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				7AB284242468432C00102CB5 /* AppDelegate.swift */,
-				7AB284262468432C00102CB5 /* SceneDelegate.swift */,
-				7AB284282468432C00102CB5 /* ContentView.swift */,
-				7AB2842A2468433000102CB5 /* Assets.xcassets */,
-				7AB2842F2468433000102CB5 /* LaunchScreen.storyboard */,
-				7AB284322468433000102CB5 /* Info.plist */,
-				7AB2842C2468433000102CB5 /* Preview Content */,
+				7AB2846224684B5700102CB5 /* AppDelegate.swift */,
+				7AB2846424684B5700102CB5 /* SceneDelegate.swift */,
+				7AB2846624684B5700102CB5 /* ViewController.swift */,
+				7AB2846824684B5700102CB5 /* Main.storyboard */,
+				7AB2846B24684B5900102CB5 /* Assets.xcassets */,
+				7AB2846D24684B5900102CB5 /* LaunchScreen.storyboard */,
+				7AB2847024684B5900102CB5 /* Info.plist */,
 			);
 			path = "艦これBrowser";
 			sourceTree = "<group>";
 		};
-		7AB2842C2468433000102CB5 /* Preview Content */ = {
+		7AB2849424685BED00102CB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7AB2842D2468433000102CB5 /* Preview Assets.xcassets */,
+				7AB2849524685BED00102CB5 /* WebKit.framework */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7AB2843A2468433000102CB5 /* 艦これBrowserTests */ = {
-			isa = PBXGroup;
-			children = (
-				7AB2843B2468433000102CB5 /* ___BrowserTests.swift */,
-				7AB2843D2468433000102CB5 /* Info.plist */,
-			);
-			path = "艦これBrowserTests";
-			sourceTree = "<group>";
-		};
-		7AB284452468433000102CB5 /* 艦これBrowserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7AB284462468433000102CB5 /* ___BrowserUITests.swift */,
-				7AB284482468433000102CB5 /* Info.plist */,
-			);
-			path = "艦これBrowserUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AB284202468432C00102CB5 /* 艦これBrowser */ = {
+		7AB2845E24684B5700102CB5 /* 艦これBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB2844B2468433000102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowser" */;
+			buildConfigurationList = 7AB2848924684B5A00102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowser" */;
 			buildPhases = (
-				7AB2841D2468432C00102CB5 /* Sources */,
-				7AB2841E2468432C00102CB5 /* Frameworks */,
-				7AB2841F2468432C00102CB5 /* Resources */,
+				7AB2845B24684B5700102CB5 /* Sources */,
+				7AB2845C24684B5700102CB5 /* Frameworks */,
+				7AB2845D24684B5700102CB5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +96,25 @@
 			);
 			name = "艦これBrowser";
 			productName = "艦これBrowser";
-			productReference = 7AB284212468432C00102CB5 /* 艦これBrowser.app */;
+			productReference = 7AB2845F24684B5700102CB5 /* 艦これBrowser.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7AB284362468433000102CB5 /* 艦これBrowserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB2844E2468433000102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowserTests" */;
-			buildPhases = (
-				7AB284332468433000102CB5 /* Sources */,
-				7AB284342468433000102CB5 /* Frameworks */,
-				7AB284352468433000102CB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AB284392468433000102CB5 /* PBXTargetDependency */,
-			);
-			name = "艦これBrowserTests";
-			productName = "艦これBrowserTests";
-			productReference = 7AB284372468433000102CB5 /* 艦これBrowserTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7AB284412468433000102CB5 /* 艦これBrowserUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB284512468433000102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowserUITests" */;
-			buildPhases = (
-				7AB2843E2468433000102CB5 /* Sources */,
-				7AB2843F2468433000102CB5 /* Frameworks */,
-				7AB284402468433000102CB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AB284442468433000102CB5 /* PBXTargetDependency */,
-			);
-			name = "艦これBrowserUITests";
-			productName = "艦これBrowserUITests";
-			productReference = 7AB284422468433000102CB5 /* 艦これBrowserUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7AB284192468432C00102CB5 /* Project object */ = {
+		7AB2845724684B5700102CB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Ming Chang";
 				TargetAttributes = {
-					7AB284202468432C00102CB5 = {
+					7AB2845E24684B5700102CB5 = {
 						CreatedOnToolsVersion = 11.4.1;
-					};
-					7AB284362468433000102CB5 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 7AB284202468432C00102CB5;
-					};
-					7AB284412468433000102CB5 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 7AB284202468432C00102CB5;
 					};
 				};
 			};
-			buildConfigurationList = 7AB2841C2468432C00102CB5 /* Build configuration list for PBXProject "艦これBrowser" */;
+			buildConfigurationList = 7AB2845A24684B5700102CB5 /* Build configuration list for PBXProject "艦これBrowser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,92 +122,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 7AB284182468432C00102CB5;
-			productRefGroup = 7AB284222468432C00102CB5 /* Products */;
+			mainGroup = 7AB2845624684B5700102CB5;
+			productRefGroup = 7AB2846024684B5700102CB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AB284202468432C00102CB5 /* 艦これBrowser */,
-				7AB284362468433000102CB5 /* 艦これBrowserTests */,
-				7AB284412468433000102CB5 /* 艦これBrowserUITests */,
+				7AB2845E24684B5700102CB5 /* 艦これBrowser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7AB2841F2468432C00102CB5 /* Resources */ = {
+		7AB2845D24684B5700102CB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AB284312468433000102CB5 /* LaunchScreen.storyboard in Resources */,
-				7AB2842E2468433000102CB5 /* Preview Assets.xcassets in Resources */,
-				7AB2842B2468433000102CB5 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB284352468433000102CB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB284402468433000102CB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7AB2846F24684B5900102CB5 /* LaunchScreen.storyboard in Resources */,
+				7AB2846C24684B5900102CB5 /* Assets.xcassets in Resources */,
+				7AB2846A24684B5700102CB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7AB2841D2468432C00102CB5 /* Sources */ = {
+		7AB2845B24684B5700102CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AB284252468432C00102CB5 /* AppDelegate.swift in Sources */,
-				7AB284272468432C00102CB5 /* SceneDelegate.swift in Sources */,
-				7AB284292468432C00102CB5 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB284332468433000102CB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AB2843C2468433000102CB5 /* ___BrowserTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB2843E2468433000102CB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AB284472468433000102CB5 /* ___BrowserUITests.swift in Sources */,
+				7AB2846724684B5700102CB5 /* ViewController.swift in Sources */,
+				7AB2846324684B5700102CB5 /* AppDelegate.swift in Sources */,
+				7AB2846524684B5700102CB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7AB284392468433000102CB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AB284202468432C00102CB5 /* 艦これBrowser */;
-			targetProxy = 7AB284382468433000102CB5 /* PBXContainerItemProxy */;
-		};
-		7AB284442468433000102CB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AB284202468432C00102CB5 /* 艦これBrowser */;
-			targetProxy = 7AB284432468433000102CB5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		7AB2842F2468433000102CB5 /* LaunchScreen.storyboard */ = {
+		7AB2846824684B5700102CB5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7AB284302468433000102CB5 /* Base */,
+				7AB2846924684B5700102CB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AB2846D24684B5900102CB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB2846E24684B5900102CB5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7AB284492468433000102CB5 /* Debug */ = {
+		7AB2848724684B5A00102CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		7AB2844A2468433000102CB5 /* Release */ = {
+		7AB2848824684B5A00102CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,20 +292,19 @@
 			};
 			name = Release;
 		};
-		7AB2844C2468433000102CB5 /* Debug */ = {
+		7AB2848A24684B5A00102CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"艦これBrowser/Preview Content\"";
 				DEVELOPMENT_TEAM = RYS7R26Y6Y;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "艦これBrowser/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1Alpha;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mingchangpersonal.kcbrowser.---Browser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -451,151 +312,48 @@
 			};
 			name = Debug;
 		};
-		7AB2844D2468433000102CB5 /* Release */ = {
+		7AB2848B24684B5A00102CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"艦これBrowser/Preview Content\"";
 				DEVELOPMENT_TEAM = RYS7R26Y6Y;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "艦これBrowser/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1Alpha;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mingchangpersonal.kcbrowser.---Browser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		7AB2844F2468433000102CB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RYS7R26Y6Y;
-				INFOPLIST_FILE = "艦これBrowserTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mingchangpersonal.kcbrowser.---BrowserTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/艦これBrowser.app/艦これBrowser";
-			};
-			name = Debug;
-		};
-		7AB284502468433000102CB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RYS7R26Y6Y;
-				INFOPLIST_FILE = "艦これBrowserTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mingchangpersonal.kcbrowser.---BrowserTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/艦これBrowser.app/艦これBrowser";
-			};
-			name = Release;
-		};
-		7AB284522468433000102CB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RYS7R26Y6Y;
-				INFOPLIST_FILE = "艦これBrowserUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mingchangpersonal.kcbrowser.---BrowserUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "艦これBrowser";
-			};
-			name = Debug;
-		};
-		7AB284532468433000102CB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RYS7R26Y6Y;
-				INFOPLIST_FILE = "艦これBrowserUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mingchangpersonal.kcbrowser.---BrowserUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "艦これBrowser";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AB2841C2468432C00102CB5 /* Build configuration list for PBXProject "艦これBrowser" */ = {
+		7AB2845A24684B5700102CB5 /* Build configuration list for PBXProject "艦これBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AB284492468433000102CB5 /* Debug */,
-				7AB2844A2468433000102CB5 /* Release */,
+				7AB2848724684B5A00102CB5 /* Debug */,
+				7AB2848824684B5A00102CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AB2844B2468433000102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowser" */ = {
+		7AB2848924684B5A00102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AB2844C2468433000102CB5 /* Debug */,
-				7AB2844D2468433000102CB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AB2844E2468433000102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AB2844F2468433000102CB5 /* Debug */,
-				7AB284502468433000102CB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AB284512468433000102CB5 /* Build configuration list for PBXNativeTarget "艦これBrowserUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AB284522468433000102CB5 /* Debug */,
-				7AB284532468433000102CB5 /* Release */,
+				7AB2848A24684B5A00102CB5 /* Debug */,
+				7AB2848B24684B5A00102CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7AB284192468432C00102CB5 /* Project object */;
+	rootObject = 7AB2845724684B5700102CB5 /* Project object */;
 }
