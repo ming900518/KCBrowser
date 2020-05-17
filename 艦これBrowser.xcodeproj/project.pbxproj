@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A40A0872471464B003EF048 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A40A0862471464B003EF048 /* Setting.swift */; };
 		7AB2846324684B5700102CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2846224684B5700102CB5 /* AppDelegate.swift */; };
 		7AB2846524684B5700102CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2846424684B5700102CB5 /* SceneDelegate.swift */; };
 		7AB2846724684B5700102CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2846624684B5700102CB5 /* ViewController.swift */; };
@@ -14,11 +15,10 @@
 		7AB2846C24684B5900102CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2846B24684B5900102CB5 /* Assets.xcassets */; };
 		7AB2846F24684B5900102CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2846D24684B5900102CB5 /* LaunchScreen.storyboard */; };
 		7AB2849624685BEE00102CB5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB2849524685BED00102CB5 /* WebKit.framework */; };
-		7AB4D028246D3E84000228C5 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4D027246D3E84000228C5 /* Setting.swift */; };
-		7AD36F43246F94C200368431 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD36F42246F94C200368431 /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A40A0862471464B003EF048 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		7AB2845F24684B5700102CB5 /* 艦これBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "艦これBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB2846224684B5700102CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AB2846424684B5700102CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +28,6 @@
 		7AB2846E24684B5900102CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AB2847024684B5900102CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AB2849524685BED00102CB5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		7AB4D027246D3E84000228C5 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
-		7AD36F42246F94C200368431 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +69,7 @@
 				7AB2846B24684B5900102CB5 /* Assets.xcassets */,
 				7AB2846D24684B5900102CB5 /* LaunchScreen.storyboard */,
 				7AB2847024684B5900102CB5 /* Info.plist */,
-				7AB4D027246D3E84000228C5 /* Setting.swift */,
-				7AD36F42246F94C200368431 /* SettingsVC.swift */,
+				7A40A0862471464B003EF048 /* Setting.swift */,
 			);
 			path = "艦これBrowser";
 			sourceTree = "<group>";
@@ -158,9 +155,8 @@
 			files = (
 				7AB2846724684B5700102CB5 /* ViewController.swift in Sources */,
 				7AB2846324684B5700102CB5 /* AppDelegate.swift in Sources */,
-				7AB4D028246D3E84000228C5 /* Setting.swift in Sources */,
+				7A40A0872471464B003EF048 /* Setting.swift in Sources */,
 				7AB2846524684B5700102CB5 /* SceneDelegate.swift in Sources */,
-				7AD36F43246F94C200368431 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +308,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3Alpha;
+				MARKETING_VERSION = 0.4Alpha;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingchangpersonal.kcbrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,11 +328,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3Alpha;
+				MARKETING_VERSION = 0.4Alpha;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingchangpersonal.kcbrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

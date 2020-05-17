@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="landscape" appearance="light"/>
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -13,15 +13,14 @@
             <objects>
                 <viewController storyboardIdentifier="mainPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="艦これBrowser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-Ap-rYN">
-                                <rect key="frame" x="46" y="0.0" width="690" height="414"/>
+                                <rect key="frame" x="90" y="-21.666666666666657" width="762" height="457.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="414" id="ZhB-5t-c7d"/>
-                                    <constraint firstAttribute="width" constant="690" id="s5W-dm-at4"/>
+                                    <constraint firstAttribute="width" secondItem="xhX-Ap-rYN" secondAttribute="height" multiplier="5:3" id="O8Y-wV-wEd"/>
                                 </constraints>
                                 <wkWebViewConfiguration key="configuration" allowsPictureInPictureMediaPlayback="NO">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" audio="YES" video="YES"/>
@@ -29,48 +28,49 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2S-00-ubz">
-                                <rect key="frame" x="0.0" y="18" width="46" height="17"/>
+                                <rect key="frame" x="50" y="20" width="37" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <state key="normal" title="Refresh"/>
+                                <state key="normal" title="重新整理"/>
                                 <connections>
                                     <action selector="reloadBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="gEy-lV-gko"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecg-n2-1nF" userLabel="FullScreen">
-                                <rect key="frame" x="0.0" y="40" width="46" height="23"/>
+                                <rect key="frame" x="53" y="51" width="31" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="iot-IV-eNV"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <state key="normal" title="Full Scr"/>
+                                <state key="normal" title="全螢幕"/>
                                 <connections>
                                     <action selector="fullscreenBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybu-1T-jSD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2H-nI-SLi" userLabel="Settings">
-                                <rect key="frame" x="0.0" y="371" width="46" height="23"/>
+                                <rect key="frame" x="53" y="350" width="31" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="Pv4-KC-gk8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <state key="normal" title="Settings"/>
+                                <state key="normal" title="設定"/>
                                 <connections>
                                     <action selector="settingBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaD-tB-qHu"/>
-                                    <segue destination="vBc-hM-tYr" kind="show" identifier="showSettings" id="fB5-C7-gz8">
-                                        <segue key="commit" inheritsFrom="parent" id="XDI-Jk-RSn"/>
-                                        <segue key="preview" inheritsFrom="commit" id="agF-JS-Y3e"/>
-                                    </segue>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Ecg-n2-1nF" firstAttribute="trailing" secondItem="n2H-nI-SLi" secondAttribute="trailing" id="9xP-OD-OqK"/>
-                            <constraint firstItem="xhX-Ap-rYN" firstAttribute="top" secondItem="qVk-cA-6Q7" secondAttribute="top" id="Dya-1X-62k"/>
-                            <constraint firstItem="Ecg-n2-1nF" firstAttribute="trailing" secondItem="u2S-00-ubz" secondAttribute="trailing" id="E7z-xG-h0M"/>
-                            <constraint firstItem="qVk-cA-6Q7" firstAttribute="bottom" secondItem="n2H-nI-SLi" secondAttribute="bottom" constant="20" id="IAT-dE-cbw"/>
-                            <constraint firstItem="qVk-cA-6Q7" firstAttribute="bottom" secondItem="u2S-00-ubz" secondAttribute="bottom" constant="379" id="a4S-KE-nH8"/>
-                            <constraint firstItem="Ecg-n2-1nF" firstAttribute="top" secondItem="u2S-00-ubz" secondAttribute="bottom" constant="5" id="g4n-ic-kE2"/>
-                            <constraint firstItem="xhX-Ap-rYN" firstAttribute="leading" secondItem="u2S-00-ubz" secondAttribute="trailing" id="gfh-ya-9xh"/>
-                            <constraint firstItem="u2S-00-ubz" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" id="kt2-3N-KOo"/>
-                            <constraint firstItem="xhX-Ap-rYN" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="46" id="qGV-tI-2Zn"/>
-                            <constraint firstItem="Ecg-n2-1nF" firstAttribute="leading" secondItem="u2S-00-ubz" secondAttribute="leading" id="uqy-ZF-aKW"/>
-                            <constraint firstItem="Ecg-n2-1nF" firstAttribute="leading" secondItem="n2H-nI-SLi" secondAttribute="leading" id="zKu-PM-LPY"/>
-                            <constraint firstItem="u2S-00-ubz" firstAttribute="top" secondItem="qVk-cA-6Q7" secondAttribute="top" constant="18" id="zRY-D8-Nb5"/>
+                            <constraint firstItem="u2S-00-ubz" firstAttribute="top" secondItem="qVk-cA-6Q7" secondAttribute="top" constant="20" id="5Fa-S0-kpl"/>
+                            <constraint firstItem="xhX-Ap-rYN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9AR-hn-vJe"/>
+                            <constraint firstItem="n2H-nI-SLi" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="9" id="E4f-e7-XbR"/>
+                            <constraint firstItem="qVk-cA-6Q7" firstAttribute="bottom" secondItem="n2H-nI-SLi" secondAttribute="bottom" constant="20" id="GCC-po-hiZ"/>
+                            <constraint firstItem="n2H-nI-SLi" firstAttribute="centerX" secondItem="u2S-00-ubz" secondAttribute="centerX" id="TvH-CL-1dB"/>
+                            <constraint firstItem="n2H-nI-SLi" firstAttribute="leading" secondItem="Ecg-n2-1nF" secondAttribute="leading" id="Zc0-6S-Z5Z"/>
+                            <constraint firstItem="u2S-00-ubz" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="6" id="d11-eP-0fo"/>
+                            <constraint firstItem="u2S-00-ubz" firstAttribute="centerX" secondItem="Ecg-n2-1nF" secondAttribute="centerX" id="kO2-WR-aTr"/>
+                            <constraint firstItem="Ecg-n2-1nF" firstAttribute="top" secondItem="u2S-00-ubz" secondAttribute="bottom" constant="8" id="oKD-5F-PfP"/>
+                            <constraint firstItem="xhX-Ap-rYN" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="46" id="pBg-Lr-95Z"/>
+                            <constraint firstItem="qVk-cA-6Q7" firstAttribute="trailing" secondItem="xhX-Ap-rYN" secondAttribute="trailing" id="pP5-XO-2tv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qVk-cA-6Q7"/>
                     </view>
@@ -83,50 +83,5 @@
             </objects>
             <point key="canvasLocation" x="136.14130434782609" y="117.39130434782609"/>
         </scene>
-        <!--Settings-->
-        <scene sceneID="tFn-lt-SFR">
-            <objects>
-                <viewController storyboardIdentifier="settingPage" title="Settings" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vBc-hM-tYr" customClass="SettingsVC" customModule="艦これBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mAz-zD-cg5">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IKi-1v-Goe">
-                                <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="設定" id="B61-z7-gxZ">
-                                        <barButtonItem key="leftBarButtonItem" title="返回" id="Nao-au-8mZ">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" identifier="hideSettings" id="NQO-3W-Pog"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ES2-NW-HEr">
-                                <rect key="frame" x="0.0" y="44" width="736" height="370"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under Construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jF8-y7-Jff">
-                                    <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="98r-Pp-eop"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="38M-cv-4LZ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XAd-bk-tbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="136.14130434782609" y="994.20289855072474"/>
-        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="fB5-C7-gz8"/>
-    </inferredMetricsTieBreakers>
 </document>
