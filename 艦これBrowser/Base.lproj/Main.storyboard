@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-Ap-rYN">
-                                <rect key="frame" x="90" y="-21.666666666666657" width="762" height="457.33333333333326"/>
+                                <rect key="frame" x="90" y="0.0" width="690" height="414"/>
                                 <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xhX-Ap-rYN" secondAttribute="height" multiplier="5:3" id="O8Y-wV-wEd"/>
@@ -65,12 +65,12 @@
                             <constraint firstItem="n2H-nI-SLi" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="9" id="E4f-e7-XbR"/>
                             <constraint firstItem="qVk-cA-6Q7" firstAttribute="bottom" secondItem="n2H-nI-SLi" secondAttribute="bottom" constant="20" id="GCC-po-hiZ"/>
                             <constraint firstItem="n2H-nI-SLi" firstAttribute="centerX" secondItem="u2S-00-ubz" secondAttribute="centerX" id="TvH-CL-1dB"/>
+                            <constraint firstItem="xhX-Ap-rYN" firstAttribute="top" secondItem="qVk-cA-6Q7" secondAttribute="top" id="Yhp-b1-tKf"/>
                             <constraint firstItem="n2H-nI-SLi" firstAttribute="leading" secondItem="Ecg-n2-1nF" secondAttribute="leading" id="Zc0-6S-Z5Z"/>
                             <constraint firstItem="u2S-00-ubz" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="6" id="d11-eP-0fo"/>
                             <constraint firstItem="u2S-00-ubz" firstAttribute="centerX" secondItem="Ecg-n2-1nF" secondAttribute="centerX" id="kO2-WR-aTr"/>
                             <constraint firstItem="Ecg-n2-1nF" firstAttribute="top" secondItem="u2S-00-ubz" secondAttribute="bottom" constant="8" id="oKD-5F-PfP"/>
                             <constraint firstItem="xhX-Ap-rYN" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" constant="46" id="pBg-Lr-95Z"/>
-                            <constraint firstItem="qVk-cA-6Q7" firstAttribute="trailing" secondItem="xhX-Ap-rYN" secondAttribute="trailing" id="pP5-XO-2tv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qVk-cA-6Q7"/>
                     </view>
