@@ -81,14 +81,14 @@ class ViewController: UIViewController, WKUIDelegate {
             self.present(fullscreenAlert, animated: true)
     }
     @IBAction func settingBtn() {
-        let settingAlert = UIAlertController(title: "連接方式", message: "請選擇預設連接方式", preferredStyle: .actionSheet)
+        let settingAlert = UIAlertController(title: "連接方式", message: "請選擇預設連接方式", preferredStyle: .alert)
         settingAlert.addAction(UIAlertAction(title: "DMM", style: .default) { action in
             Setting.savedefaultLogin(value: 1)
         })
         settingAlert.addAction(UIAlertAction(title: "OOI", style: .default) { action in
             Setting.savedefaultLogin(value: 2)
         })
-        settingAlert.addAction(UIAlertAction(title: "離開", style: .default, handler: nil))
+        settingAlert.addAction(UIAlertAction(title: "關閉", style: .default, handler: nil))
         self.present(settingAlert, animated: true)
     }
 }
