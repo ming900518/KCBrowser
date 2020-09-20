@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="mac" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,19 +11,19 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="mainPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="艦これBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="KCBrowser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="meA-5Z-Tz3" userLabel="HStackView">
-                                <rect key="frame" x="0.0" y="96" width="1024" height="576"/>
+                                <rect key="frame" x="0.0" y="-75" width="1334" height="751"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="17c-vv-UT7" userLabel="VStackView">
-                                        <rect key="frame" x="0.0" y="0.0" width="64" height="576"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="83" height="751"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X27-E9-ABp" userLabel="VPlaceHolder1">
-                                                <rect key="frame" x="0.0" y="0.0" width="64" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="71d-Bg-6uj"/>
                                                 </constraints>
@@ -32,7 +32,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2S-00-ubz" userLabel="RefreshBtn">
-                                                <rect key="frame" x="0.0" y="50" width="64" height="86.5"/>
+                                                <rect key="frame" x="0.0" y="50" width="83" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="rOh-2G-c7z"/>
                                                 </constraints>
@@ -43,7 +43,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sc-n2-6NF" userLabel="VPlaceHolder2">
-                                                <rect key="frame" x="0.0" y="136.5" width="64" height="50"/>
+                                                <rect key="frame" x="0.0" y="71" width="83" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="JgC-mE-VvR"/>
                                                 </constraints>
@@ -52,7 +52,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecg-n2-1nF" userLabel="FullscreenBtn">
-                                                <rect key="frame" x="0.0" y="186.5" width="64" height="25"/>
+                                                <rect key="frame" x="0.0" y="121" width="83" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="Nip-SB-Jod"/>
                                                 </constraints>
@@ -63,13 +63,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V67-aW-LsC" userLabel="VPlaceHolder3">
-                                                <rect key="frame" x="0.0" y="211.5" width="64" height="319.5"/>
+                                                <rect key="frame" x="0.0" y="142" width="83" height="537"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2H-nI-SLi" userLabel="SettingsBtn">
-                                                <rect key="frame" x="0.0" y="531" width="64" height="25"/>
+                                                <rect key="frame" x="0.0" y="679" width="83" height="22"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="PtZ-hj-bPI"/>
                                                 </constraints>
@@ -80,7 +80,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b4-T4-ylS" userLabel="VPlaceHolder4">
-                                                <rect key="frame" x="0.0" y="556" width="64" height="20"/>
+                                                <rect key="frame" x="0.0" y="701" width="83" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="BQi-z7-90l"/>
                                                 </constraints>
@@ -94,7 +94,7 @@
                                         </constraints>
                                     </stackView>
                                     <wkWebView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-Ap-rYN">
-                                        <rect key="frame" x="64" y="0.0" width="960" height="576"/>
+                                        <rect key="frame" x="83" y="0.0" width="1251" height="751"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="xhX-Ap-rYN" secondAttribute="height" multiplier="1200:720" id="cam-pA-4kJ"/>
@@ -111,13 +111,13 @@
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="qVk-cA-6Q7"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="meA-5Z-Tz3" firstAttribute="centerX" secondItem="qVk-cA-6Q7" secondAttribute="centerX" id="UB5-9h-GV7"/>
                             <constraint firstItem="meA-5Z-Tz3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bZu-cv-3UZ"/>
                             <constraint firstItem="meA-5Z-Tz3" firstAttribute="leading" secondItem="qVk-cA-6Q7" secondAttribute="leading" id="lfq-xw-5Sb"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="qVk-cA-6Q7"/>
                     </view>
                     <navigationItem key="navigationItem" id="L4D-lv-ba5"/>
                     <connections>

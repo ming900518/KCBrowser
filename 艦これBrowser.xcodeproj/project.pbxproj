@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		7A40A0862471464B003EF048 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		7A825ED424FF4893005F433E /* 艦これBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "艦これBrowser.entitlements"; sourceTree = "<group>"; };
-		7AB2845F24684B5700102CB5 /* 艦これBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "艦これBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB2845F24684B5700102CB5 /* KCBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB2846224684B5700102CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AB2846424684B5700102CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7AB2846624684B5700102CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		7AB2846024684B5700102CB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AB2845F24684B5700102CB5 /* 艦これBrowser.app */,
+				7AB2845F24684B5700102CB5 /* KCBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			);
 			name = "艦これBrowser";
 			productName = "艦これBrowser";
-			productReference = 7AB2845F24684B5700102CB5 /* 艦これBrowser.app */;
+			productReference = 7AB2845F24684B5700102CB5 /* KCBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -301,6 +301,7 @@
 		7AB2848A24684B5A00102CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "艦これBrowser/艦これBrowser.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -312,9 +313,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingchang.kcbrowser;
-				PRODUCT_NAME = "艦これBrowser";
+				PRODUCT_NAME = KCBrowser;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +327,7 @@
 		7AB2848B24684B5A00102CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "艦これBrowser/艦これBrowser.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -335,9 +339,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mingchang.kcbrowser;
-				PRODUCT_NAME = "艦これBrowser";
+				PRODUCT_NAME = KCBrowser;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
